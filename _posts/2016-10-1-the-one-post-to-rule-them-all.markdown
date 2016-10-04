@@ -31,11 +31,7 @@ To assist me in my endless struggle, I developed a list. A sort of how to for co
 
     > prayer = ['God grant me the serenity to accept the things I cannot change, the courage to change the things I can, and the wisdom to know the difference.']
 
-  `if prayer.include?(things)`
-
-    `things = code`
-    
-  `end`
+  `things = code if prayer.include?(things)`
 
   3. Remember GODS PLAN! Try as hard as Rock Lee trains!
 
