@@ -29,10 +29,12 @@ To assist me in my endless struggle, I developed a list. A sort of how to for co
   1. Accept failure. You're gonna EFF it up, so EFF it up well!
   2. Prayer of St. Francis:
 
-    > prayer = ['God grant me the serenity to accept the things I cannot change, the courage to change the things I can, and the wisdom to know the difference.'] 
+    > prayer = ['God grant me the serenity to accept the things I cannot change, the courage to change the things I can, and the wisdom to know the difference.']
 
   `if prayer.include?(things)`
+
     `things = code`
+    
   `end`
 
   3. Remember GODS PLAN! Try as hard as Rock Lee trains!
