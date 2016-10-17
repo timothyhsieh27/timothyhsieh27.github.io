@@ -2,7 +2,7 @@
 layout:     post
 title:      "Its Been Awhile..."
 subtitle:   "Since I Last, Made My First Blog Post."
-date:       2016-10-016 12:00:00
+date:       2016-10-16 12:00:00
 author:     "Kristine Teichmann"
 header-img: ""
 ---
@@ -15,4 +15,4 @@ Now on to more pertinent issues. Recently, my cohort has been dabbling in the da
 
 Now API's I have had my fair practice with. I feel like I have developed a knack for (ha!), created a method if you will (another code reference) on how to create a REST API with all of the appropriate folders and filenames. If you don't believe me than just take a look at some of the REST API's I developed on my GitHub page: https://github.com/kteich88.
 
-I rather enjoy writing the Back-End CRUD code for a REST API, but the magic that occurs between Back-End and the beauty of Front-End perplexes me. So much so, that I cannot even write about it! I just don't know where to begin... ajax, JQuery, helpers, and handlers? Everything on an HTML page must be able to be accessed simultaneously. These terms, and their functions (no joke this time) I am only vaguely familiar with, but only just enough that I can reference them, not enough to properly put them into practice. On another note entirely, how does one deploy an app to Heroku? I sort of know the process. It involves having a git repo, and running several heroku statements in terminal. I've "made" three apps so far, but they are forbidden from view. Ah well, there is still more to learn and tomorrow is Monday! You thought I was going to say another day, didn't you...? Until next time, bear with me and I will try to keep on posting even when life gets in the way! 
+I rather enjoy writing the Back-End CRUD code for a REST API, but the magic that occurs between Back-End and the beauty of Front-End perplexes me. So much so, that I cannot even write about it! I just don't know where to begin... ajax, JQuery, helpers, and handlers? Everything on an HTML page must be able to be accessed simultaneously. These terms, and their functions (no joke this time) I am only vaguely familiar with, but only just enough that I can reference them, not enough to properly put them into practice. On another note entirely, how does one deploy an app to Heroku? I sort of know the process. It involves having a git repo, and running several heroku statements in terminal. I've "made" three apps so far, but they are forbidden from view. Ah well, there is still more to learn and tomorrow is Monday! You thought I was going to say another day, didn't you...? Until next time, bear with me and I will try to keep on posting even when life gets in the way!
