@@ -34,14 +34,13 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header page-scroll">
-                <a class="navbar-brand" href="../../../index.html">Rubyist Kristine</a>
-            </div>
-        </div>
-        <!-- /.container -->
+  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+      <div class="container">
+          <div class="navbar-header page-scroll">
+              <a class="navbar-brand" href="../../../index.html">Rubyist Kristine</a>
+          </div>
+      </div>
+      <!-- /.container -->
     </nav>
 
     <!-- Post Content -->
@@ -70,16 +69,14 @@
 
 <ol>
   <li>Accept failure. You’re gonna EFF it up, so EFF it up well!</li>
-  <li>Prayer of St. Francis:
-    <blockquote>
-      <p>prayer = [‘God grant me the serenity to accept the things I cannot change, the courage to change the things I can, and the wisdom to know the difference.’]</p>
-    </blockquote>
-  </li>
+  <li>Prayer of St. Francis:</li>
 </ol>
 
-<p><code class="highlighter-rouge">if prayer.include?(things)
-    things = code
-  end</code></p>
+<div class="highlighter-rouge"><pre class="highlight"><code>&gt; prayer = ['God grant me the serenity to accept the things I cannot change, the courage to change the things I can, and the wisdom to know the difference.']
+</code></pre>
+</div>
+
+<p><code class="highlighter-rouge">things = code if prayer.include?(things)</code></p>
 
 <ol>
   <li>Remember GODS PLAN! Try as hard as Rock Lee trains!</li>
@@ -105,6 +102,10 @@
                     <ul class="pager">
                         
                         
+                        <li class="next">
+                            <a href="/2016/10/16/its-been-awhile.html" data-toggle="tooltip" data-placement="top" title="Its Been Awhile...">Next Post &rarr;</a>
+                        </li>
+                        
                     </ul>
 
                 </div>
@@ -120,30 +121,23 @@
             <div class="container">
                 <div class="row">
                     <div class="footer-col col-md-4">
-                        <h3>Location</h3>
-                        <p>4409C Emerald Forest Drive
-                            <br>Durham, NC 27713</p>
+                        <h3>My Current Location</h3>
+                        <p>Durham, NC 27713</p>
                     </div>
                     <div class="footer-col col-md-4">
                         <h3>Around the Web</h3>
                         <ul class="list-inline">
                             <li>
-                                <a href="https://www.facebook.com/kristine.teichmann" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                                <a href="https://twitter.com/kteich87?lang=en" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
                             </li>
                             <li>
-                                <a href="https://plus.google.com/104336165986423928484" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://twitter.com/?lang=en" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/kteichmann88/?hl=en" class="btn-social btn-outline"><i class="fa fa-fw fa-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/kristine-teichmann-7a30a412a?trk=hp-identity-name" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
                             </li>
                         </ul>
                     </div>
                     <div class="footer-col col-md-4">
-                        <h3>My Bubbies</h3>
-                        <p>If you want to see my other side: <a href="">Bubbies Portfolio</a>.</p>
+                        <!-- <h3>My Bubbies</h3> -->
+                        <!-- <p>If you want to see my other side: <a href="">Bubbies Portfolio</a>.</p> -->
                     </div>
                 </div>
             </div>
@@ -158,6 +152,7 @@
             </div>
         </div>
     </footer>
+
 
     <!-- jQuery -->
     <script src="../../../vendor/jquery/jquery.min.js"></script>

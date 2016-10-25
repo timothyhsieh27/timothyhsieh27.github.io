@@ -505,5 +505,9 @@ fieldset[disabled] .btn-success.active {
 }
 
 .img-responsive {
-  
+
+}
+
+#selfie {
+  border-radius: 100%;
 }
