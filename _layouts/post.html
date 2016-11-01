@@ -1,6 +1,4 @@
----
-layout: default
----
+--- layout: default ---
 <!DOCTYPE html>
 <html lang="en">
 
@@ -37,30 +35,28 @@ layout: default
 </head>
 
 <body>
-  <!-- Post Header -->
-<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
-  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
-      <div class="container">
-          <div class="navbar-header page-scroll">
-              <a class="navbar-brand" href="../../../index.html">Rubyist Kristine</a>
-          </div>
-      </div>
-      <!-- /.container -->
-  </nav>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-heading">
-                    <h1>{{ page.title }}</h1>
-                    {% if page.subtitle %}
-                    <h2 class="subheading">{{ page.subtitle }}</h2>
-                    {% endif %}
-                    <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
+    <!-- Post Header -->
+    <header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+        <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
+            <div class="container">
+                <div class="navbar-header page-scroll">
+                    <a class="navbar-brand" href="../../../index.html">Rubyist Kristine</a>
+                </div>
+            </div>
+            <!-- /.container -->
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="post-heading">
+                        <h1>{{ page.title }}</h1> {% if page.subtitle %}
+                        <h2 class="subheading">{{ page.subtitle }}</h2> {% endif %}
+                        <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</header>
+    </header>
 
     <!-- Post Content -->
     <article>
@@ -68,7 +64,7 @@ layout: default
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
-    				{{ content }}
+                    {{ content }}
 
                     <hr>
 
@@ -77,8 +73,7 @@ layout: default
                         <li class="previous">
                             <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
                         </li>
-                        {% endif %}
-                        {% if page.next.url %}
+                        {% endif %} {% if page.next.url %}
                         <li class="next">
                             <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
                         </li>
