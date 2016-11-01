@@ -1,0 +1,8 @@
+---
+layout:     post
+title:      "Wandering Thoughts So Lost So Jumbled"
+subtitle:   "Yearning For More Guidance..."
+date:       2016-10-31 12:00:00
+author:     "Kristine Teichmann"
+header-img: "img/phantom.jpg"
+---
