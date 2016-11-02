@@ -31,7 +31,7 @@ ProTip # 2: `ll` `ll` is a command similar to `ls`, but the display is cleaner a
 
 '~' a.k.a Tilda. Represents the home directory, the root of all directories/file folders on your computer.
 
-ProTip # 3: Beware rm -rf If anyone tells you this is the solution, **DO NOT BELIEVE THEM!** This command is well known and very dangerous. Running this command in any directory will repeatedly remove everything within that directory and it will do so without ever prompting you. You have been warned...
+ProTip # 3: Beware rm -rf* If anyone tells you this is the solution, **DO NOT BELIEVE THEM!** This command is well known and very dangerous. Running this command in any directory will repeatedly remove everything within that directory and it will do so without ever prompting you. You have been warned...
 
 `mkdir` makes a new file folder within your current directory.
 
