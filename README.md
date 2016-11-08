@@ -1,6 +1,6 @@
 # My Professional Portfolio
   
-To view my site, visit: https://kteich88.github.io/
+To view my site, please visit: https://kteich88.github.io/
 
 ## Built With
 
