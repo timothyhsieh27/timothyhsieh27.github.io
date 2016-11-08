@@ -37,96 +37,94 @@ layout: default
 </head>
 
 <body>
-    <!-- Post Header -->
-    <header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
-        <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
-            <div class="container">
-                <div class="navbar-header page-scroll">
-                    <a class="navbar-brand" href="../../../index.html">Rubyist Kristine</a>
-                </div>
-            </div>
-            <!-- /.container -->
-        </nav>
+  <!-- Post Header -->
+  <header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top navbar-custom">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                    <div class="post-heading">
-                        <h1>{{ page.title }}</h1> {% if page.subtitle %}
-                        <h2 class="subheading">{{ page.subtitle }}</h2> {% endif %}
-                        <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
-                    </div>
-                </div>
+            <div class="navbar-header page-scroll">
+                <a class="navbar-brand" href="../../../index.html">Rubyist Kristine</a>
             </div>
         </div>
-    </header>
-
-    <!-- Post Content -->
-    <article>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-
-                    {{ content }}
-
-                    <hr>
-
-                    <ul class="pager">
-                        {% if page.previous.url %}
-                        <li class="previous">
-                            <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
-                        </li>
-                        {% endif %} {% if page.next.url %}
-                        <li class="next">
-                            <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
-                        </li>
-                        {% endif %}
-                    </ul>
-
-                </div>
-            </div>
+        <!-- /.container -->
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+          <div class="post-heading">
+            <h1>{{ page.title }}</h1> {% if page.subtitle %}
+            <h2 class="subheading">{{ page.subtitle }}</h2> {% endif %}
+            <span class="meta">Posted by {% if page.author %}{{ page.author }}{% else %}{{ site.title }}{% endif %} on {{ page.date | date: "%B %-d, %Y" }}</span>
+          </div>
         </div>
-    </article>
+      </div>
+    </div>
+  </header>
+
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+            {{ content }}
+
+            <hr>
+
+            <ul class="pager">
+              {% if page.previous.url %}
+              <li class="previous">
+                <a href="{{ page.previous.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.previous.title}}">&larr; Previous Post</a>
+              </li>
+              {% endif %} {% if page.next.url %}
+              <li class="next">
+                <a href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{page.next.title}}">Next Post &rarr;</a>
+              </li>
+              {% endif %}
+            </ul>
+        </div>
+      </div>
+    </div>
+  </article>
 
     <hr>
 
-    <!-- Footer -->
-    <footer class="text-center">
-        <div class="footer-above">
-            <div class="container">
-                <div class="row">
-                    <div class="footer-col col-md-4">
-                        <h3>My Current Location</h3>
-                        <p>Durham, NC 27713</p>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <h3>Around the Web</h3>
-                        <ul class="list-inline">
-                            <li>
-                                <a href="https://twitter.com/kteich87?lang=en" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
-                            </li>
-                            <li>
-                                <a href="https://www.linkedin.com/in/kristine-teichmann-7a30a412a?trk=hp-identity-name" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                    <div class="footer-col col-md-4">
-                        <!-- <h3>My Bubbies</h3> -->
-                        <!-- <p>If you want to see my other side: <a href="">Bubbies Portfolio</a>.</p> -->
-                    </div>
-                </div>
+  <!-- Footer -->
+  <footer class="text-center">
+    <div class="footer-above">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col col-md-4">
+            <h3>My Current Location</h3>
+            <p>Durham, NC 27713</p>
+          </div>
+          <div class="footer-col col-md-4">
+            <h3>Around the Web</h3>
+            <ul class="list-inline">
+              <li>
+                <a href="https://twitter.com/kteich87?lang=en" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/kristine-teichmann-7a30a412a?trk=hp-identity-name" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+              </li>
+            </ul>
+          </div>
+            <div class="footer-col col-md-4">
+                <!-- <h3>My Bubbies</h3> -->
+                <!-- <p>If you want to see my other side: <a href="">Bubbies Portfolio</a>.</p> -->
             </div>
         </div>
-        <div class="footer-below">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        Copyright &copy; BubbiesBlog 2016
-                    </div>
-                </div>
+      </div>
+    </div>
+      <div class="footer-below">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12">
+              Copyright &copy; BubbiesBlog 2016
             </div>
+          </div>
         </div>
-    </footer>
-
+      </div>
+  </footer>
 
     <!-- jQuery -->
     <script src="../../../assets/jquery/jquery.min.js"></script>
