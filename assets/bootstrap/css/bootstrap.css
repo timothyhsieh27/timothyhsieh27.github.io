@@ -1123,6 +1123,7 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+  position: relative;
 }
 .img-rounded {
   border-radius: 6px;
@@ -6783,6 +6784,7 @@ button.close {
   transform: scale(1.1);
   -webkit-transition: all 0.35s;
   transition: all 0.35s;
+  margin: auto;
 }
 
 .hovereffect:hover img {
@@ -6832,6 +6834,7 @@ button.close {
   width: 100%;
   height: 100%;
   position: absolute;
+  top: -12.5%;
 }
 
 .hovereffect hr {
@@ -6881,11 +6884,11 @@ button.close {
 }
 
 .group1 {
-  top: 40%;
+  top: 47%;
 }
 
 .group2 {
-  top: 60%;
+  top: 53%;
 }
 
 .hovereffect p {
