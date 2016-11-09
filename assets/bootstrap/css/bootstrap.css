@@ -1121,10 +1121,13 @@ img {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  max-width: 100%;
   height: auto;
   max-width: 300px;
   top: 13%;
+}
+#octocat {
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 .img-rounded {
   border-radius: 6px;
