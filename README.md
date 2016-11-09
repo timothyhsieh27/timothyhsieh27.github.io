@@ -13,3 +13,5 @@ To view my site, please visit: https://kteich88.github.io/
 ## Acknowledgments
 
 * The Iron Yard - Durham
+
+* Lindsey Adams
