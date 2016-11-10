@@ -1121,11 +1121,15 @@ img {
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
   display: block;
-  height: auto;
+  height: 300px;
   max-width: 300px;
   top: 13%;
 }
 #octocat {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+#selfie {
   margin-top: 15px;
   margin-bottom: 15px;
 }
@@ -6828,6 +6832,10 @@ button.close {
   background-color: transparent;
 }
 
+.hovereffect a {
+  padding: 10px;
+}
+
 .hovereffect a.info:hover {
   box-shadow: 0 0 5px #fff;
 }
@@ -6888,7 +6896,7 @@ button.close {
 }
 
 .group1 {
-  top: 44%;
+  top: 43%;
 }
 
 .group2 {
@@ -6896,14 +6904,14 @@ button.close {
 }
 
 .hovereffect p {
-  width: 30%;
+  width: 50%;
   text-transform: none;
   font-size: 15px;
   line-height: 2;
 }
 
 .hovereffect p a {
-  color: #18BC9C;
+  color: #337ab7;
 }
 
 .hovereffect p a:hover,
@@ -6917,8 +6925,7 @@ button.close {
   filter: alpha(opacity=0);
   -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
   transition: opacity 0.35s, transform 0.35s;
-  padding: 10px;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .group1 a:first-child i {
