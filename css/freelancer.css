@@ -511,3 +511,7 @@ fieldset[disabled] .btn-success.active {
 #selfie {
   border-radius: 100%;
 }
+
+#blog {
+  padding: 5%;
+}
