@@ -1,0 +1,37 @@
+# Site settings
+title: "{{ Kristine Teichmann }}"
+description: "Professional portfolio site of Kristine Teichmann: Back-End Engineer and Rubyist.  Blogging for tech and personal expression."
+url: 'https://kteich88.github.io/'
+
+resume: 'https://drive.google.com/file/d/0B4rzBY8VJympRGdGSWpNTjZjRFU/view'
+
+author:
+  name: 'Kristine Teichmann'
+  email: kteich88@gmail.com
+  twitter_username: kteich87
+  github_username:  kteich88
+  linkedin_username:  kteichmann
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+
+# Build settings
+destination: _site
+paginate: 10
+permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+gems: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
