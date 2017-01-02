@@ -1,6 +1,5 @@
 ---
-title: Last time on BubbiesBlog
-subtitle: 'Since I Last, Made My First Blog Post.'
+title: Last Time On BubbiesBlog...
 date: 2016-10-16
 categories:
 tags:
