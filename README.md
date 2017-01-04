@@ -1,6 +1,6 @@
 # My Professional Portfolio
 
-To view my site, please visit: https://kteich88.github.io/
+To view my site, please visit: https://timothyhsieh27.github.io/
 
 ## Built With
 
@@ -8,7 +8,7 @@ To view my site, please visit: https://kteich88.github.io/
 
 ## Authors
 
-* **Kristine Teichmann**
+* **Timothy Hsieh**
 
 ## Acknowledgments
 
