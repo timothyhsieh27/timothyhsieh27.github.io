@@ -1,5 +1,5 @@
 ---
-title: The One Post To Rule Them All.
+title: The One Post To Rule Them All
 date: 2016-10-01
 categories:
 tags:
@@ -21,7 +21,7 @@ As I mentioned previously, **the struggle is real!** Refactoring code that works
 
 To assist me in my endless struggle, I developed a list. A sort of how to for coding. I recommend that all aspiring coders do the same. The list goes as follows:
 
-# How to write code
+### How to write code
 
 1. Accept failure. You're gonna EFF it up, so EFF it up well!
 2. Prayer of St. Francis:
@@ -32,7 +32,7 @@ To assist me in my endless struggle, I developed a list. A sort of how to for co
 
 3. Remember GODS PLAN! Try as hard as Rock Lee trains!
 
-## Now real coding can begin
+### Now real coding can begin
 
 1. Look at assignment instructions and list all parts to code.
 2. Build the smallest, working code first! Don't stress about the big picture, no methods or classes to start.
@@ -42,4 +42,4 @@ To assist me in my endless struggle, I developed a list. A sort of how to for co
 6. Always ask questions.
 7. Keep going! You're doing great! [Insert other inspiration here]
 
-Well this has certainly been an enlightening blog post. I intend to keep up with this as I can throughout my journey, though I cannot promise that all of my posts will be as long. As for my final thoughts, my mission, my motivation, my muse for this off the rails roller coaster ride (no ruby pun intended, seriously): I want to be remembered. I want to be the difference the world needs. I want to make a change so dramatic that the world as we know it stops spinning eastward and rotates in reverse. God has called me to complete this path. His will be done through me for others. I thoroughly enjoy programming and hope to make my future part of the programming world!
+Well this has certainly been an enlightening blog post. I intend to keep up with this as I can throughout my journey, though I cannot promise that all of my posts will be as long. As for my final thoughts, my mission, my motivation, my muse for this off the rails roller coaster ride (no ruby pun intended... seriously): I want to be remembered. I want to be the difference the world needs. I want to make a change so dramatic that the world as we know it stops spinning eastward and rotates in reverse. God has called me to complete this path. His will be done through me for others. I thoroughly enjoy programming and hope to make my future part of the programming world!
