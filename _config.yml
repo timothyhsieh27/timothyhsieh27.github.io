@@ -1,16 +1,16 @@
 # Site settings
-title: "{{ Kristine Teichmann }}"
-description: "Professional portfolio site of Kristine Teichmann: Back-End Engineer and Rubyist.  Blogging for tech and personal expression."
-url: 'https://kteich88.github.io/'
+title: "| Timothy Hsieh |"
+description: "Back-End Engineer | Educator"
+url: 'https://timothyhsieh27.github.io/'
 
-resume: 'https://drive.google.com/file/d/0B4rzBY8VJympRGdGSWpNTjZjRFU/view'
+resume: 'https://drive.google.com/file/d/0B-IZ085vX9wkOEVmQllRUHlCcTg/view'
 
 author:
-  name: 'Kristine Teichmann'
-  email: kteich88@gmail.com
-  twitter_username: kteich87
-  github_username:  kteich88
-  linkedin_username:  kteichmann
+  name: 'Timothy Hsieh'
+  email: timothyhsieh27@gmail.com
+  twitter_username: damienjames27
+  github_username:  timothyhsieh27
+  linkedin_username:  timothyhsieh27
 
 defaults:
   -
